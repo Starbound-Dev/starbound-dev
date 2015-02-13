@@ -1,1 +1,3 @@
+highlighter: rouge
 markdown: rdiscount
+encoding: utf-8

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/static/css/stylesheet.css" rel="stylesheet">
+        <title>{{ page.title }}</title>
+    </head>
+    <body {% if page.scrollspy %}data-spy="scroll" data-target="#{{ page.scrollspy }}"{% endif %}>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Starbound-Dev</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Networking <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/networking">Network Protocol</a></li>
+                            <li><a href="/networking/data-types.html">Data Types</a></li>
+                            <li><a href="/networking/connecting.html">Logging into a server</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">File Formats <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/todo" title="These file formats provide the basis for other formats.">Meta Formats</a></li>
+                            <li><a href="/todo" title="Describes where the player is located in the universe.">Client Context</a></li>
+                            <li><a href="/todo" title="Player inventory, name, appearance, etc">Player File</a></li>
+                            <li><a href="/todo" title="Planets and ships">World</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            {{ content }}
+        </div>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
+    </body>
+</html>
