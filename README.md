@@ -12,4 +12,7 @@ This is the source code for http://starbound-dev.net.
 There are notes left by other editors as HTML comments in several of the pages. You should read these before
 modifying things nearby. Feel free to leave your own comments as you see fit.
 
-To run this site locally, please read the [GitHub pages docs](http://pages.github.com/).
+## How to run the website locally
+todo.
+
+
