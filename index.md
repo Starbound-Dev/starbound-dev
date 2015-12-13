@@ -47,7 +47,7 @@ yet be complete.
         <tr> <!-- StarryPy -->
             <td><a target="_blank" href="https://github.com/StarryPy/StarryPy">StarryPy/StarryPy</a></td>
             <td>Plugin-driven Starbound proxy server built using Twisted.</td>
-            <td><span class="label label-success">Upbeat Giraffe</span></td>
+            <td><span class="label label-success">Glad Giraffe</span></td>
             <td><span class="label label-success">Stable</span></td>
             <td>Python</td>
             <td><a target="_blank" href="https://github.com/StarryPy/StarryPy/blob/master/LICENSE">WTFPL</a></td>
@@ -71,7 +71,7 @@ yet be complete.
         <tr> <!-- starcheat -->
             <td><a target="_blank" href="https://github.com/wizzomafizzo/starcheat">wizzomafizzo/starcheat</a></td>
             <td>Python modules for parsing/editing .player files and assets</td>
-            <td><span class="label label-success">Upbeat Giraffe</span></td>
+            <td><span class="label label-success">Glad  Giraffe</span></td>
             <td><span class="label label-success">Unstable</span></td>
             <td>Python</td>
             <td><a target="_blank" href="https://github.com/wizzomafizzo/starcheat/blob/master/LICENSE">MIT</a></td>
