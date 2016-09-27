@@ -1,6 +1,6 @@
 ---
 title: Data Types
-layout: default
+layout: base
 ---
 
 # Data Types
