@@ -1,7 +1,5 @@
 # starbound-dev
 
-This is the source code for http://starbound-dev.org.
-
 ## Contribution Guidelines
 
 Fork this repository and submit a pull request with your changes. After you've had a few pull requests under your
@@ -14,3 +12,4 @@ To run this site locally, read the [GitHub pages docs](http://pages.github.com/)
 
 1. Install jekyll (`gem install jekyll`)
 2. Run jekyll (`jekyll serve --watch`)
+
