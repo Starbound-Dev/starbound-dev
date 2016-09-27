@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Starbound Networking
 ---
 {% capture content %}
