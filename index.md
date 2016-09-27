@@ -1,6 +1,6 @@
 ---
-layout: base
 title: Starbound Reverse Engineering
+layout: default
 ---
 
 Welcome to the Starbound reverse engineering hub! This is a community-maintained, unofficial website to collect information
