@@ -3,15 +3,4 @@ description: Starbound Server Reverse Engineering
 paginate: 10
 gems:
   - jekyll-paginate
-  - jekyll-assets
-assets:
-  autowrite: true
-  cache: .asset-cache
-  cache_type: filesystem
-  prefix: "/assets"
-  digest: true
-  
-  sources:
-    - _assets/css
-    - _assets/js
-    - _assets/fonts
+baseurl: 

@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="{% css bootstrap.min %}" rel="stylesheet">
-        <link href="{% css stylesheet %}" rel="stylesheet">
+        <link href="{{ "/assets/css/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+        <link href="{{ "/assets/css/stylesheet.css" | prepend: site.baseurl }}" rel="stylesheet">
         <title>{{ page.title }}</title>
     </head>
     <body {% if page.scrollspy %}data-spy="scroll" data-target="#{{ page.scrollspy }}"{% endif %}>
@@ -39,6 +39,6 @@
             {{ content }}
         </div>
         <script src="https://code.jquery.com/jquery.js"></script>
-        <script src="{% js bootstrap.min %}"></script>
+        <script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
     </body>
 </html>
