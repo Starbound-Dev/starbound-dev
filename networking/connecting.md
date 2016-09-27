@@ -1,6 +1,6 @@
 ---
 title: Connection Process
-layout: base
+layout: default
 ---
 
 # Connection Process
