@@ -1,4 +1,6 @@
 name: Starbound-Dev
 description: Starbound Server Reverse Engineering
 paginate: 10
-gems: ["jekyll-paginate"]
+gems:
+  - jekyll-paginate
+  - jekyll-assets
